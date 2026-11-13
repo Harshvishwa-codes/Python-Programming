@@ -13,7 +13,9 @@ I'm currently learning Python and improving my programming fundamentals through 
 - Conditional Statements
 - Loops
 - Functions
-- Lists and Strings
+- Lists and tuples
+- OOPs
+- File Handling I/O
 - Practice Questions
 
 ## Repository Structure

@@ -82,3 +82,22 @@ for seq in str :
     print(seq)
 else: 
     print("hoga")
+
+# que 1 of for loop
+# print the elements of list using a loop
+[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+list = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+for x in list:
+    print(x) 
+
+# que . 2 
+# search for a number x in this tuple using a loop
+
+nums = [1, 4, 9, 16, 25, 36, 49, 4, 64, 81, 100, 4]
+y = 25
+idx = 0
+for x in nums:
+    if (x == y):
+        print("no. found at idx:", idx)
+        break
+    idx += 1 

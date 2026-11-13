@@ -72,3 +72,13 @@ while i <= 10:
         continue  #skip
     print(i)
     i += 1
+
+# for loop  
+str = "apna ghar"
+for seq in str :
+    if (seq == 'h'):
+        print("found 'h' ")
+        break
+    print(seq)
+else: 
+    print("hoga")

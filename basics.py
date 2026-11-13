@@ -36,3 +36,38 @@ print(tup[0])
 print(tup[1:4])
 print(tup.index(20))
 print(tup.count(3))
+
+# question_1
+# WAP to ask the user to enter their 3 favourite movies name and store them in a list and print the list 
+movie1 = input("first movie name:")
+movie2 = input("second movie name:")
+movie3 = input("third movie name:")
+your_fav_movies = [movie1, movie2, movie3]
+print("your favourite movies are:", your_fav_movies)
+movies = []
+movies.append(input("enter your 1st favourite movie name:"))
+movies.append(input("enter your 2nd favourite movie name:"))
+movies.append(input("enter your 3rd favourite movie name:"))
+print("your three favourite movies are:", movies)
+
+# question_2
+palindrome = list(input("enter anything to check if it's a palindrome: "))
+print(palindrome)
+palindrome_copy = palindrome.copy()
+palindrome_copy.reverse()
+print(palindrome_copy)
+(palindrome == palindrome_copy)
+if (palindrome == palindrome_copy):
+    print("the string is a palindrome")
+else:
+    print("the string is not a palindrome")
+
+# ques_3
+# WAP to count a number of students with the A grade in a following tuple 
+grades = ("c", "d", "a", "a", "b", "b", "a")
+
+grades = ("c", "d", "a", "a", "b", "b", "a")
+grades_list = list(grades)
+print(grades_list)
+grades_list.sort()
+print(grades_list)

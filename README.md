@@ -35,3 +35,25 @@ More practice codes and topics will be added as I continue learning.
 **Language:** Python 3
 
 **Status:** Learning in Progress
+
+# Python Programming
+
+My journey of learning Python through concepts, coding exercises and practice problems.
+
+## Learning Progress
+
+- [x] Python Basics
+- [x] Variables and Data Types
+- [x] Operators
+- [x] Conditional Statements
+- [x] Loops
+- [x] Strings
+- [x] Lists and Tuples
+- [x] Functions
+- [x] Dictionaries
+- [x] File Handling
+- [x] OOP
+
+## Goal
+
+Build strong Python fundamentals before moving towards Data Structures and Algorithms and AI/ML.

@@ -27,3 +27,12 @@ list1.reverse()
 print(list1)
 list1[0] = 200
 print(list1)
+
+# tuple
+tup = (1, 2, 3, 5, 9, 20)
+print(tup)
+print(type(tup))
+print(tup[0])
+print(tup[1:4])
+print(tup.index(20))
+print(tup.count(3))

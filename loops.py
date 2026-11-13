@@ -101,3 +101,58 @@ for x in nums:
         print("no. found at idx:", idx)
         break
     idx += 1 
+# range in python
+for i in range(5):
+    print(i)
+
+for x in range(2,100,2):
+    print(x)
+
+# ques.
+# print no. from 1 to 100
+
+for x in range(1, 101 ):
+    print(x)
+
+# Que 
+# print no. from 100 to 1
+
+for x in range(100, 0, -1):
+    print(x)
+
+# que 
+# print the multiplication table of no. n
+n = int(input("enter no.:"))
+
+for i in range(1, 11):
+    print(n * i)
+
+
+# que 
+# wap to find first natural(n) numbers (using for loop)
+
+n = int(input("enter a number:"))
+sum = 0 
+for i in range(1, n+1):
+    sum += i
+print("sum of total no. is :",sum)
+
+
+# que 
+# wap to find first natural(n) numbers (using for while loop )
+n = int(input("enter a number:"))
+sum = 1
+i = 1 
+while i <= n :
+    sum *= i
+    i += 1
+print("sum of total no. is :",sum)
+
+# que
+# WAP to find the factorial of first n no. using (for loop )
+
+n = int(input("enter a no.:"))
+fact = 1
+for i in range(1, n + 1):
+    fact *= i
+print(fact)

@@ -1,0 +1,7 @@
+
+# loops
+# while loop
+count = 1 
+while count <= 5:
+    print("hello Harsh ji")
+    count += 1

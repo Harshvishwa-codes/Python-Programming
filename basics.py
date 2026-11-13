@@ -124,3 +124,45 @@ st1 = {1, 2, 3, 8, 6, 4}
 st2 = {5, 7, 9, 10, 11, 12, 13, 14, 15, 1, 2, 3, 5 , 8, 3, 10}
 print(st1.union(st2))
 print(st1.intersection(st2))
+
+# ques 1
+# store following word meaning in a python dictionary
+
+mean = {
+    "table": ["a piece of furniture","a piece of furniture"],
+    "cat": "a small animal",
+}
+print(mean)
+
+
+# ques 2
+# you are given a list of subjects of students. Assume one classroom is required for one subject. how many class are needed by all students. 
+
+
+sub = {"java", "python", "C++", "python", "javascript", "c", "java", "python", "C++", "java"}
+print("total classes needed fot all students is:", len(sub))
+
+# WAP to entre marks of 3 subjects from the user and store them in a dictionary.
+# start with an empty dictionary and add one by one. use subject name as key and/ marks as value.
+# 1st method 
+dict = {}
+dict.update({"phy marks":input("enter physics marks:")})
+dict.update({"chem marks":input("enter chemistry marks:")})
+dict.update({"math marks":input("enter maths marks:")})
+print(dict)
+
+
+# 2nd method 
+
+marks = {}
+
+m = int(input("physics:"))
+marks.update({"phy": m} )
+
+m = int(input("chemistry:"))
+marks.update({"chem": m} )
+
+m = int(input("maths:"))
+marks.update({"math":m} )
+
+print(marks)

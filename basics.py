@@ -71,3 +71,33 @@ grades_list = list(grades)
 print(grades_list)
 grades_list.sort()
 print(grades_list)
+
+# DICTIONARY 
+
+about_me = {
+    "name" : "Harsh vishwakarma",
+    "age" : 18,
+    "last_score" : 71.0,
+    "studying" : "BTECH AI",
+    "subjects" : {
+        "sem1" : ["python", "calculus", "english"],
+        "sem2" : ["java", "linear algebra", "communication skills"],
+        "sem3" : ["c++", "statistics", "data structures"] #nested dictionary
+    },
+    "learning" : ["python","java", "c++"]
+}
+about_me["age"] = 19
+about_me["hobbies"] = ["cricket", "football", "badminton"]
+print(about_me)
+
+dict = {}
+dict["name"] = "lakshman"
+print(dict)
+print(len(list(about_me.keys())))
+print(len(list(about_me.values())))
+pairs = list(about_me.items())
+print(pairs)
+print(pairs[5])
+print(list(about_me.get("subjects").get("sem2")))
+about_me.update({"city" : "indore"})
+print((about_me.items()))

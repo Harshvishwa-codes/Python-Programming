@@ -101,3 +101,26 @@ print(pairs[5])
 print(list(about_me.get("subjects").get("sem2")))
 about_me.update({"city" : "indore"})
 print((about_me.items()))
+
+# sets in python
+
+nums = {1, 2, 5, 2, 6 , 3, 4, 5, "hey"}
+print((nums))
+print(len(nums))
+null_set = set()
+null_set.add(5)
+null_set.add(50)
+null_set.add(42)
+null_set.add(77)
+null_set.remove(50)
+null_set.add((4, 5, 8))
+null_set.add("harsh")
+print(null_set)
+print(type(null_set))
+print(len(null_set))
+
+
+st1 = {1, 2, 3, 8, 6, 4}
+st2 = {5, 7, 9, 10, 11, 12, 13, 14, 15, 1, 2, 3, 5 , 8, 3, 10}
+print(st1.union(st2))
+print(st1.intersection(st2))
